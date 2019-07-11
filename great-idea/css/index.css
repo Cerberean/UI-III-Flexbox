@@ -64,3 +64,119 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* *{
+	border: 1px solid red !important;
+} */
+
+body{
+	margin: 0 auto;
+	width: 800px;
+}
+header nav{
+	display: flex;
+	justify-content: space-between;
+	margin: 5%;
+	align-items: center;
+}
+a{
+	text-decoration: none;
+}
+.cover{
+	display: flex;
+	justify-content: space-between;
+}
+.pair{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.iod{
+	font-size: 60px;
+	padding: 20%;
+	text-align: center;
+}
+.button{
+	display: flex;
+	justify-content: center;
+	width: 160px;
+	height: 55px;
+	margin-bottom: 15%;
+}
+.top{
+	display:flex;
+	margin: 1%;
+	margin-top: 3%;
+	justify-content: space-between;
+}
+p{
+	width: 90%;
+}
+.top div{
+	justify-content: flex-end;
+}
+.middle-img{
+	width: 100%;
+	padding: 5% 0;
+}
+.bottom{
+	display:flex;
+	margin: 1%;
+	margin-bottom: 3%;
+	justify-content: space-between;
+}
+
+.copyright{
+	display: flex;
+	justify-content: center;
+}
+.services-header-img{
+	width: 100%
+}
+.servicesDiv{
+	display: flex;
+	background-color: lightblue;
+	flex-wrap: wrap;
+	border: 2px solid black;
+	width: 45%;
+	margin: 2% 0;
+	padding: 1%;
+}
+.serviceBPair{
+	display:flex;
+	justify-content: space-between;
+}
+
+.copyright{
+	text-align: center;
+}
+.sixBox{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-around;
+}
+.servicesDiv button{
+	margin: 10px;
+	margin-top: 15px;
+	width: 125px;
+}
+.contact-container{
+	display:flex;
+	flex-direction: column;
+}
+label{
+display:flex;
+margin-top: 1%;
+margin-bottom: 1%;
+}
+
+textarea{
+	width: 100%;
+}
+.information{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
